@@ -114,6 +114,7 @@ jobs:
                 git commit -m "[CI]: Update product catalog image tag"
                 git push origin HEAD:main -f
 
+                
     trigger-gitops:
         runs-on: ubuntu-latest
         needs: update-kubernetes-manifest
